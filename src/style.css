@@ -49,16 +49,17 @@ h1 {
   border-radius: 5px;
   border: 1px solid;
   transition: 0.3s;
-  box-shadow: #ffd4a36c 0px 13px 27px -5px,
-  #f6a54872 0px 8px 16px -8px;
+  box-shadow:
+    #ffd4a36c 0 13px 27px -5px,
+    #f6a54872 0 8px 16px -8px;
 }
 
 .refreshBtn:hover {
   box-shadow: #000000a4 4px 4px;
-  background-color: #826240
+  background-color: #826240;
 }
 
-.refreshBtn:after {
+.refreshBtn::after {
   content: "";
   display: block;
   position: relative;
@@ -68,18 +69,17 @@ h1 {
   box-shadow: 0 0 10px 30px white;
 }
 
-.refreshBtn:active:after {
+.refreshBtn:active::after {
   box-shadow: 0 0 0 0 #ffd4a36c;
   position: absolute;
   left: 0;
-  top:0;
+  top: 0;
   opacity: 1;
   transition: 0s;
 }
 
 .refreshBtn:active {
   background-color: #28221b6c;
-  top: px;
 }
 
 #score__table {
@@ -87,10 +87,10 @@ h1 {
   display: flex;
   border-radius: 10px;
   flex-direction: column;
-  box-shadow: #ffd4a36c 0px 13px 27px -5px, rgba(246, 165, 72, 0.446) 0px 8px 16px -8px;
+  box-shadow: #ffd4a36c 0 13px 27px -5px, rgba(246, 165, 72, 0.446) 0 8px 16px -8px;
   background: #f0a2101a;
-  backdrop-filter: blur( 7px );
-  -webkit-backdrop-filter: blur( 7px );
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
   border: 1px solid #ffffff2e;
 }
 
@@ -127,10 +127,11 @@ h1 {
   border-radius: 4px;
   transition: 0.3s ease-in-out;
   background-color: #170b007b;
-  backdrop-filter: blur( 7px );
+  backdrop-filter: blur(7px);
   border: 1px solid #ffffff2e;
-  box-shadow: #ffd4a36c 0px 13px 27px -5px,
-  #f6a54872 0px 8px 16px -8px;
+  box-shadow:
+    #ffd4a36c 0 13px 27px -5px,
+    #f6a54872 0 8px 16px -8px;
 }
 
 .addBtn {
@@ -142,16 +143,17 @@ h1 {
   border: 1px solid;
   align-self: flex-end;
   transition: 0.3s;
-  box-shadow: #ffd4a36c 0px 13px 27px -5px,
-  #f6a54872 0px 8px 16px -8px;
+  box-shadow:
+    #ffd4a36c 0 13px 27px -5px,
+    #f6a54872 0 8px 16px -8px;
 }
 
 .addBtn:hover {
   box-shadow: #000000a4 4px 4px;
-  background-color: #826240
+  background-color: #826240;
 }
 
-.addBtn:after {
+.addBtn::after {
   content: "";
   display: block;
   position: relative;
@@ -161,16 +163,15 @@ h1 {
   box-shadow: 0 0 10px 30px white;
 }
 
-.addBtn:active:after {
+.addBtn:active::after {
   box-shadow: 0 0 0 0 #ffd4a36c;
   position: absolute;
   left: 0;
-  top:0;
+  top: 0;
   opacity: 1;
   transition: 0s;
 }
 
 .addBtn:active {
   background-color: #28221b6c;
-  top: px;
 }
