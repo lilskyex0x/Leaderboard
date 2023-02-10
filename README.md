@@ -56,7 +56,7 @@ Welcome to the **Leaderboard** Project! This project is designed to create a dyn
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Coming_soon](https://github.com/lilskyex0x)
+- [Leaderboard](https://lilskyex0x.github.io/Leaderboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
